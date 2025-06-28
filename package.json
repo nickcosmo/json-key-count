@@ -1,0 +1,74 @@
+{
+  "name": "json-key-count",
+  "displayName": "JSON Key Count",
+  "description": "View JSON key or item counts for each JSON object or array.",
+  "icon": "icon.png",
+  "version": "0.0.1",
+  "publisher": "nickcosmo",
+  "engines": {
+    "vscode": "^1.101.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onLanguage:json"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "configuration": {
+      "type": "object",
+      "title": "JSON Key Decorations",
+      "properties": {
+        "jsonKeyCount.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable count decorations for JSON keys showing number of direct descendants."
+        }
+      }
+    },
+    "commands": [
+      {
+        "command": "jsonKeyCount.toggleUser",
+        "title": "Toggle JSON Key Count (User)"
+      },
+      {
+        "command": "jsonKeyCount.toggleWorkspace",
+        "title": "Toggle JSON Key Count (Workspace)"
+      }
+    ]
+  },
+  "keywords": [
+    "json",
+    "decorator",
+    "structure",
+    "children",
+    "keys",
+    "count"
+  ],
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "20.x",
+    "@types/sinon": "^17.0.4",
+    "@types/vscode": "^1.101.0",
+    "@typescript-eslint/eslint-plugin": "^8.31.1",
+    "@typescript-eslint/parser": "^8.31.1",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.5.2",
+    "eslint": "^9.25.1",
+    "sinon": "^21.0.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "jsonc-parser": "^3.3.1"
+  },
+  "license": "MIT"
+}
