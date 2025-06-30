@@ -3,7 +3,7 @@
   "displayName": "JSON Key Count",
   "description": "View JSON key or item counts for each JSON object or array.",
   "icon": "icon.png",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "publisher": "nickcosmo",
   "engines": {
     "vscode": "^1.101.0"
