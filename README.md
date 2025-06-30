@@ -28,9 +28,7 @@ This extension includes optimizations to avoid slowing down large JSON files:
 
 
 ## Installation
-Search for JSON Key Count in the VSCode Extensions Marketplace or go here: 
-
-TODO - [Add link to vscode marketplace]
+Search for JSON Key Count in the VSCode Extensions Marketplace or go here: [JSON Key Count](https://marketplace.visualstudio.com/items?itemName=nickcosmo.json-key-count)
 
 ## Contributing
 Suggestions, issues, and pull requests are welcome! Open an issue or fork the project at: [json-key-count](https://github.com/nickcosmo/json-key-count)
