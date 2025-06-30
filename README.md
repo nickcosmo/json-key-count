@@ -37,17 +37,3 @@ Suggestions, issues, and pull requests are welcome! Open an issue or fork the pr
 
 ## License
 [MIT](./LICENSE)
-
-## TODO
-
-- [X] Add tests
-- [X] Test a couple large files
-- [X] Proofread the readme
-- [X] Add a screenshot or GIF
-- [ ] Set up CI
-- [ ] Update changelog with initial release info
-- [ ] make sure semVer is set
-- [X] add categories to package.json
-- [X] Add a link to the GitHub repo
-- [ ] Configure GitHub repo
-- [ ] Add a link to the VSCode Marketplace listing
