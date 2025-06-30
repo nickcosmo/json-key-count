@@ -2,6 +2,11 @@
 
 All notable changes to the "json-key-count" extension will be documented in this file.
 
+## [1.0.1] - 2025-06-25
+
+### Added
+- Update `README.md` with link to the vscode marketplace listing
+
 ## [1.0.0] - 2025-06-25
 
 ### Added
